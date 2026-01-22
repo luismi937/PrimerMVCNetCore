@@ -1,0 +1,13 @@
+﻿@model Persona
+
+<h1 style="color:aquamarine">Controlador --> View Model</h1>
+@if (Model != null)
+{
+    <h2>
+        Nombre: @Model.Nombre, @Model.Email, @Model.Edad
+    </h2>
+}
+else
+{
+    <h2>No he recibido Model</h2>
+}
